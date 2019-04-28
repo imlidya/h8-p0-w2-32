@@ -1,0 +1,38 @@
+1. Hukum Newton
+
+STORE massa with 600 
+STORE percepatan with 2
+STORE resultan gaya without any value
+SET resultan gaya with  massa times percepatan
+
+DISPLAY resultan gaya
+
+2. Tahun Kabisat
+
+STORE tahun with any value
+    IF
+        (tahun divided 4 equals to 0 AND tahun divided 100 bigger than 0) OR
+        (tahun divided 4 equals to 0 AND tahun divided 100 equals to 0  AND tahun divided 400 equals to 0)
+        DISPLAY "Tahun Kabisat"
+    ELSE
+        DISPLAY "Bukan Tahun Kabisat"
+
+3.  Laundry Day
+
+STORE pakaian with 0
+    IF( pakaian less than 21)
+        ADD pakaian by 1
+    DISPLAY 'Nyalakan Mesin Cuci'
+
+4. Potong Kuku
+
+ STORE siswa with 0
+    STORE kuku without any value
+    WHILE siswa < 41
+        IF kuku equals to "kuku panjang"
+            DISPLAY "Lakukan Menghukum Siswa"
+        ELSE
+            DISPLAY "Lakukan Memuji Siswa"
+        ADD periksa siswa by 1
+
+
