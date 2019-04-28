@@ -19,10 +19,10 @@ STORE tahun with any value
 
 3.  Laundry Day
 
-STORE pakaian with 0
-    IF( pakaian less than 21)
-        ADD pakaian by 1
-    DISPLAY 'Nyalakan Mesin Cuci'
+STORE hitung pakaian with 0
+    WHILE hitung pakaian < 21
+        ADD hitung pakaian by 1
+    DISPLAY "Nyalakan Mesin Cuci"
 
 4. Potong Kuku
 
